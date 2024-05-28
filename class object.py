@@ -1,0 +1,33 @@
+class student:
+    def __init__(self,name,rollno,maths,physics,chemistry,java,python):
+        self.name=name
+        self.rollno=rollno
+        self.maths=maths
+        self.physics=physics
+        self.chemistry=chemistry
+        self.java=java
+        self.python=python
+obj=student("gamya",11,23,56,74,78,67)
+##print(obj.name)
+##print(obj.rollno)
+##print(obj.maths)
+##print(obj.physics)
+##print(obj.chemistry)
+##print(obj.java)
+##print(obj.python)
+##obj2=student("navya",12,45,67,86,56,89)
+##print(obj2.name)
+##print(obj2.rollno)
+##print(obj2.maths)
+##print(obj2.physics)
+##print(obj2.chemistry)
+##print(obj2.java)
+##print(obj2.python)
+##obj3=student("chintu",13,67,56,78,89,75)
+##print(obj3.name)
+##print(obj3.rollno)
+##print(obj3.maths)
+##print(obj3.physics)
+##print(obj3.chemistry)
+##print(obj3.java)
+##print(obj3.python)    
